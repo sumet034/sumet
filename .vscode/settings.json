@@ -1,0 +1,25 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0D1C57",
+        "activityBar.activeBorder": "#df00ad",
+        "activityBar.foreground": "#fff",
+        "activityBar.inactiveForeground": "#fff",
+        "activityBarBadge.background": "#df00ad",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#0D1C57",
+        "titleBar.inactiveBackground": "#0D1C57",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveForeground": "#728EFD",
+        "statusBar.background": "#0D1C57",
+        "statusBarItem.hoverBackground": "#008bb3",
+        "statusBar.foreground": "#fff",
+        "activityBar.activeBackground": "#57C5B6",
+        "sash.hoverBorder": "#1accff",
+        "statusBarItem.remoteBackground": "#0D1C57",
+        "statusBarItem.remoteForeground": "#15202b",
+        "commandCenter.border": "#15202b99"
+    },
+    "peacock.color": "#00bae9",
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}
