@@ -6,7 +6,7 @@
             {{-- <meta http-equiv="Content-Security-Policy" --}}
     {{-- content="default-src 'self' https://sockjs-ap1.pusher.com/ blob: ; script-src  'self' data:; style-src data: 'self'; img-src 'self' data: blob: https://uicdn.toast.com/; font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/; connect-src 'self'; frame-src 'self'; object-src 'none'; media-src 'self'; child-src 'self' youtube.com; form-action 'self'; frame-ancestors 'self'; base-uri 'self';"> --}}
 
-        <title>Laravel</title>
+        <title>Sumet hongnak</title>
         <link href="{{ asset('scss/app.scss') }}" rel="stylesheet">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <!-- Fonts -->
@@ -24,7 +24,7 @@
             }
         </style>
     </head>
-    <body class="antialiased">
+    <body>
        <div id="root"></div>
        <script src="{{ mix('/js/app.js') }}"></script>
     </body>

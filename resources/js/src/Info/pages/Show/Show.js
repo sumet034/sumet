@@ -5,7 +5,7 @@ const Show = () => {
 
     return (
         <div>
-            
+            <h1 className='text-xl animate-bounce text-center'>this is page Show</h1>
         </div>
     );
 }

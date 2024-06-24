@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import { Link } from "react-router-dom";
 function NoMatch() {
     return (
         <Fragment>
@@ -14,11 +14,11 @@ function NoMatch() {
                     ขออภัย!ไม่พบหน้าเว็บไซต์ที่ค้นหา...
                 </h1>
 
-                <a href={`/home`}>
+                <Link to={`/home`}>
                     <h1 className="text-sm lg:text-base text-gray-700 font-medium w-36 flex text-center m-auto ">
                         <i className="fas fa-home fa-md"></i>&nbsp; กลับหน้าหลัก
                     </h1>
-                </a>
+                </Link>
             </div>
         </Fragment>
     );
