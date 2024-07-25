@@ -22,3 +22,12 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('admin/home', [HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
+
+// Route::group(['namespace' => 'Admin', 'middleware' => 'antihack'], function () {
+//         Route::get('adminlogon', 'Auth\LoginController@showLoginForm')->name('admin.login');
+//     Route::post('adminlogon', 'Auth\LoginController@login');
+
+//     Route::group(['middleware' => 'auth:admin'], function () {
+//     });
+
+// });
